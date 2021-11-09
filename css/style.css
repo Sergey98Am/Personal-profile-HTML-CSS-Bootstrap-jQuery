@@ -1,1 +1,10 @@
 @import "first-section.css";
+@import "second-section.css";
+
+.section-height {
+    height: 915px;
+}
+
+p {
+    margin: 0 !important;
+}

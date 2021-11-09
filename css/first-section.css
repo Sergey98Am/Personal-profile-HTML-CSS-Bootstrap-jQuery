@@ -2,10 +2,6 @@
     background: #4e29d0;
 }
 
-.first-section .section-height {
-    height: 915px;
-}
-
 .first-section .first-content {
     background: url("../images/intro-bg-1.jpg");
     background-size: cover;
@@ -31,6 +27,7 @@
     padding-top: 340px;
     padding-left: 75px;
     padding-right: 75px;
+    padding-bottom: 80px;
 }
 
 .first-section .second-content .text-content .name {
