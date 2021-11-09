@@ -1,0 +1,104 @@
+.second-section .second-content {
+    background: url("../images/about-bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.second-section .my-story {
+    padding-left: 69px;
+    padding-right: 85px;
+    padding-top: 112px;
+    padding-bottom: 80px;
+}
+
+.second-section .my-story .title {
+    padding-bottom: 30px;
+}
+
+.second-section .my-story .title h1 {
+    color: #5429c4;
+    margin: 0;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+}
+
+.second-section .my-story .title h1:before {
+    display: inline-block;
+    content: "";
+    border-top: 3.5px solid #5429c4;
+    width: 42px;
+    transform: translateY(-1.2rem);
+    margin-right: 11px;
+}
+
+.second-section .my-story .subtitle {
+    padding-bottom: 50px;
+}
+
+.second-section .my-story .subtitle h2 {
+    color: #5429c4;
+    font-size: 26.5px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+
+.second-section .my-story .text {
+    padding-bottom: 53px;
+}
+
+.second-section .my-story .text p {
+    font-size: 16.9px;
+    line-height: 27.9px;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.second-section .knowledge-progress .item:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+.second-section .knowledge-progress .item .language-percent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.second-section .knowledge-progress .item .language-percent p {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.second-section .knowledge-progress .item .progress-bar {
+    background: #f3f3f3;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.second-section .knowledge-progress .item .loading {
+    background: #472ad9;
+    height: 7px;
+}
+
+.second-section .knowledge-progress .load-html {
+    width: 95%;
+}
+
+.second-section .knowledge-progress .load-css {
+    width: 85%;
+}
+
+.second-section .knowledge-progress .load-js {
+    width: 90%;
+}
+
+.second-section .knowledge-progress .load-php {
+    width: 70%;
+}
