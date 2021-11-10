@@ -1,10 +1,19 @@
 @import "first-section.css";
 @import "second-section.css";
+@import "third-section.css";
 
-.section-height {
-    height: 915px;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-p {
-    margin: 0 !important;
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1380px !important;
+    }
+
+    p {
+        margin: 0 !important;
+    }
 }
