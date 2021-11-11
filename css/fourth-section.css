@@ -1,0 +1,101 @@
+.fourth-section {
+    padding: 124px 0;
+}
+
+.fourth-section .first-content .title h1 {
+    font-size: 73px;
+    font-family: "Playfair Display", serif;
+}
+
+.fourth-section .first-content .title h1:after {
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 3.5px solid #5429c4;
+    width: 75px;
+    margin-top: 14px;
+    margin-left: 64%;
+}
+
+.fourth-section .second-content .text {
+    padding-top: 26px;
+    padding-left: 29px;
+    padding-right: 230px;
+}
+
+.fourth-section .second-content .text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16.4px;
+    line-height: 27px;
+    font-weight: 700;
+    word-spacing: 1px;
+}
+
+.fourth-section .first {
+    padding-bottom: 102px;
+}
+
+.fourth-section .timeline {
+    position: relative;
+    padding-left: 115px;
+    padding-right: 95px;
+}
+
+.fourth-section .timeline:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 580px;
+    background: black;
+    left: 22.3%;
+    z-index: 9999999999999;
+}
+
+.fourth-section .item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.fourth-section .item:not(:last-child) {
+    margin-bottom: 65px;
+}
+
+.fourth-section .date-range h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fourth-section .item .info {
+    width: 71.5%;
+}
+
+.fourth-section .item .info .title {
+    color: rebeccapurple;
+    font-size: 28px;
+    margin-bottom: 7px;
+}
+
+.fourth-section .item .info .subtitle {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.fourth-section .item .info p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    word-spacing: 1.6px;
+}
+
+.fourth-section .item:after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    width: 13px;
+    height: 13px;
+    background: black;
+    border-radius: 50%;
+    transform: translate(-50%);
+    left: 14.9%;
+}
