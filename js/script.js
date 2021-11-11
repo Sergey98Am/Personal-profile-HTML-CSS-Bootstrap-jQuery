@@ -31,4 +31,12 @@ $(document).ready(function () {
             }
         ]
     });
+
+    $('.second-slider').slick({
+        // infinite: true,
+        slidesToShow: 5,
+        // slidesToScroll: 3,
+        dots: true,
+        arrows: false,
+    })
 });
