@@ -1,18 +1,10 @@
 $(document).ready(function () {
-    // $('.slider').slick({
-    //     infinite: true,
-    //     slidesToShow: 4,
-    //     slidesToScroll: 3,
-    //
-    // });
-
     $('.slider').slick({
         infinite: true,
         speed: 300,
         slidesToShow: 4,
-        slidesToScroll: 4,
-        prevArrow: '.slider-button',
-        nextArrow: '.slider-button',
+        prevArrow: '.prev-button',
+        nextArrow: '.next-button',
         responsive: [
             {
                 breakpoint: 1024,
