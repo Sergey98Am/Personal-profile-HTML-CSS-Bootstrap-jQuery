@@ -2,7 +2,7 @@
     background: url("../images/contact-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 185px 0;
+    padding: 220px 0;
 }
 
 .seventh-section .contact {
@@ -24,12 +24,12 @@
 }
 
 .seventh-section .contact .title {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 
 .seventh-section .contact .title h1 {
     font-family: "Playfair Display", serif;
-    font-size: 81px;
+    font-size: 75px;
     margin: 0;
 }
 
