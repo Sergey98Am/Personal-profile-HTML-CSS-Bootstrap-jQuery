@@ -20,7 +20,8 @@
     border-bottom: 3.5px solid #4ac1e5;
     width: 75px;
     margin-top: 14px;
-    margin-left: 46%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .fifth-section .second-slider img {
@@ -31,6 +32,15 @@
     font-size: 12px;
 }
 
-.fifth-section .slick-list {
-    margin-bottom: 8px !important;
+.fifth-section .slick-dots {
+    bottom: -32px;
+}
+
+.fifth-section .slick-dots .slick-active button:before {
+    color: black !important;
+}
+
+.fifth-section .slick-dots li button:before {
+    opacity: 1 !important;
+    color: white !important;
 }
