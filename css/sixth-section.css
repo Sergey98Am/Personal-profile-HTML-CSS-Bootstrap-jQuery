@@ -64,12 +64,15 @@
     padding: 0 10px;
 }
 
+.sixth-section .third-slider .item .slider-content {
+    border-bottom: 3px solid rebeccapurple;
+}
+
 .sixth-section .third-slider .item .title h2 {
     margin-bottom: 12px;
 }
 
 .sixth-section .third-slider .item .text {
-    border-bottom: 3px solid rebeccapurple;
     padding-top: 28px;
     padding-bottom: 36px;
 }
