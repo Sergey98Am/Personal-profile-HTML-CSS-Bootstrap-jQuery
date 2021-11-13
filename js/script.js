@@ -1,4 +1,31 @@
 $(document).ready(function () {
+    $('.icon').click(function () {
+        // $(".icon").toggleClass("hide");
+        $('.overlay-menu-content').addClass('active-overlay');
+    });
+
+    $('.overlay-menu-content ul li a').click(function () {
+        // $(".icon").toggleClass("hide");
+        $('.overlay-menu-content').removeClass('active-overlay');
+    });
+
+    $('.close-menu button').click(function () {
+        // $(".icon").toggleClass("hide");
+        $('.overlay-menu-content').removeClass('active-overlay');
+    });
+
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 150) {
+            $('.header .menu-icon').css({
+                "background": "black"
+            })
+        } else {
+            $('.header .menu-icon').css({
+                "background": "transparent"
+            })
+        }
+    })
+
     $('.slider').slick({
         infinite: true,
         speed: 300,
