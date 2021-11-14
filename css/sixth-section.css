@@ -81,3 +81,47 @@
     font-size: 17px;
     margin: 0;
 }
+
+@media (max-width: 1380px) {
+    .sixth-section .buttons {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sixth-section .text {
+        padding-top: 0;
+    }
+
+    .sixth-section .buttons button {
+        width: 37px;
+        height: 37px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sixth-section {
+        padding: 80px 0;
+    }
+
+    .sixth-section .first .text {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .sixth-section .read-blog {
+        padding-left: 0;
+    }
+
+    .sixth-section .buttons {
+        text-align: center;
+    }
+
+    .sixth-section .first {
+        padding-bottom: 30px;
+    }
+
+    .sixth-section .title h1 {
+        font-size: 50px;
+    }
+}
