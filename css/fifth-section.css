@@ -44,3 +44,9 @@
     opacity: 1 !important;
     color: white !important;
 }
+
+@media (max-width: 1200px) {
+    .fifth-section .title h1 {
+        font-size: 50px;
+    }
+}
