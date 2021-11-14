@@ -45,22 +45,6 @@
     transition: 0.5s;
 }
 
-/*.header .menu .icon.active-one .hamburger-one {*/
-/*    background: rgba(0, 0, 0, 0);*/
-/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);*/
-/*}*/
-
-/*.header .menu .icon.active-one .hamburger-one:before {*/
-/*    top: 0;*/
-/*    transform: rotate(45deg);*/
-/*}*/
-
-/*.header .menu .icon.active-one .hamburger-one:after {*/
-/*    top: 0;*/
-/*    transform: rotate(135deg);*/
-/*    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);*/
-/*}*/
-
 .header .overlay-menu-content {
     position: fixed;
     left: 0;
@@ -121,4 +105,29 @@
     opacity: 1 !important;
     z-index: 9 !important;
     visibility: visible !important;
+}
+
+@media (max-width: 1200px) {
+    .header .overlay-menu-content ul li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .overlay-menu-content ul li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .overlay-menu-content ul {
+        width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    .header .overlay-menu-content ul {
+        width: 100%;
+        padding: 0 20px;
+    }
 }
