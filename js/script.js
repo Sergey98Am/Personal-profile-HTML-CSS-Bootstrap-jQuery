@@ -26,6 +26,46 @@ $(document).ready(function () {
         }
     })
 
+    let scrollLink = $('.scroll')
+
+    scrollLink.click(function (e) {
+        e.preventDefault();
+        $('body, html').animate({
+            scrollTop: $(this.hash).offset().top
+        }, 1000)
+    })
+
+    $(window).scroll(function () {
+        let scrollbarLocation = $(this).scrollTop();
+
+        scrollLink.each(function () {
+            let sectionOffset = $(this.hash).offset().top - 200
+
+            if (sectionOffset <= scrollbarLocation) {
+                $(this).addClass('active');
+                $(this).siblings().removeClass('active');
+                // let dot_link_before = window.getComputedStyle(document.querySelector('.dot-link'), ':before')
+                let hash = this.hash
+                changeColorDots(
+                    hash,
+                    '#third-section',
+                    {'border-color': 'transparent'},
+                    'add-before',
+                    {'border-color': 'red'},
+                    {'border-color': 'green'}
+                )
+                changeColorDots(
+                    hash,
+                    '#fourth-section',
+                    {'border-color': 'transparent'},
+                    'add-before',
+                    {'border-color': 'black'},
+                    {'border-color': 'white'}
+                )
+            }
+        })
+    })
+
     $('.slider').slick({
         infinite: true,
         speed: 300,
@@ -100,3 +140,13 @@ $(document).ready(function () {
         ]
     });
 });
+
+function changeColorDots(hash, sectionName, style, newClass, firstStyle, secondStyle) {
+    if (hash === sectionName) {
+        $('.dot-link').css(style).addClass(newClass)
+        $('.scroll-dots .active').css(firstStyle)
+    } else {
+        $('.dot-link').css(style).removeClass(newClass)
+        $('.scroll-dots .active').css(secondStyle)
+    }
+}

@@ -1,0 +1,37 @@
+.scroll-dots {
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    z-index: 1;
+    margin-top: -60px;
+}
+
+.scroll-dots .dot-link {
+    display: block;
+    /*background: white;*/
+    width: 17px;
+    height: 17px;
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.scroll-dots .active {
+    border-color: white;
+    border-radius: 50%;
+}
+
+.scroll-dots .dot-link:before {
+    display: block;
+    border-radius: 50%;
+    background: white;
+    content: " ";
+    width: 9px;
+    height: 9px;
+    margin: 3px;
+}
+
+.add-before:before {
+    background: black !important;
+}

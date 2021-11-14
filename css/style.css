@@ -1,3 +1,4 @@
+@import "scroll-dots.css";
 @import "menu.css";
 @import "first-section.css";
 @import "second-section.css";
@@ -12,6 +13,10 @@
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+.personal-profile {
+    position: relative;
 }
 
 @media (min-width: 1200px) {
