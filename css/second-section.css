@@ -103,3 +103,91 @@
 .second-section .knowledge-progress .load-php {
     width: 70%;
 }
+
+@media (max-width: 1380px) {
+    .second-section .my-story {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .second-section .my-story .subtitle {
+        padding-bottom: 20px;
+    }
+
+    .second-section .my-story .subtitle h2 {
+        font-size: 22px;
+    }
+
+    .second-section .my-story .text {
+        padding-bottom: 25px;
+    }
+
+    .second-section .my-story .text p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .second-section .my-story .title h1 {
+        font-size: 45px;
+    }
+
+    .second-section .my-story .title h1:before {
+        transform: translateY(-1rem);
+    }
+
+    .second-section .my-story .subtitle {
+        padding-bottom: 10px;
+    }
+
+    .second-section .my-story .subtitle h2 {
+        font-size: 18px;
+    }
+
+    .second-section .my-story .text {
+        padding-bottom: 20px;
+    }
+
+    .second-section .my-story .text p {
+        font-size: 15px;
+        line-height: 20.9px;
+    }
+
+    .second-section .knowledge-progress .item:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .second-section .my-story .subtitle h2 {
+        font-size: 22px;
+    }
+
+    .second-section .my-story .text p {
+        font-size: 18px;
+        line-height: 27.9px;
+    }
+}
+
+@media (max-width: 576px) {
+    .second-section .my-story .title h1 {
+        font-size: 30px;
+    }
+
+    .second-section .my-story .title h1:before {
+        transform: translateY(-0.5rem);
+    }
+
+    .second-section .my-story .subtitle h2 {
+        font-size: 17px;
+    }
+
+    .second-section .my-story .text p {
+        font-size: 13px;
+        line-height: 20.9px;
+    }
+}
