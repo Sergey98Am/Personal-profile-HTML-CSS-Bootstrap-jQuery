@@ -37,8 +37,8 @@
 
 .fourth-section .timeline {
     position: relative;
-    padding-left: 115px;
-    padding-right: 95px;
+    padding-left: 230px;
+    padding-right: 220px;
 }
 
 .fourth-section .timeline:before {
@@ -47,7 +47,7 @@
     width: 1px;
     height: 580px;
     background: black;
-    left: 22.3%;
+    left: 27.3%;
     z-index: 9999999999999;
 }
 
@@ -97,5 +97,17 @@
     background: black;
     border-radius: 50%;
     transform: translate(-50%);
-    left: 14.9%;
+    left: 15.4%;
+}
+
+@media (max-width: 1380px) {
+    .fourth-section .timeline {
+        position: relative;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+
+    .fourth-section .timeline::before {
+        left: 21.6%;
+    }
 }
