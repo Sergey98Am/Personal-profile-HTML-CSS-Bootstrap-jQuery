@@ -100,3 +100,71 @@
     text-decoration: none;
     color: rebeccapurple;
 }
+
+@media (max-width: 1380px) {
+    .third-section .title h1 {
+        font-size: 65px;
+    }
+
+    .third-section .buttons {
+        padding-left: 0;
+    }
+
+    .third-section .slider .item img {
+        height: 380px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .third-section .title h1 {
+        font-size: 50px;
+    }
+
+    .third-section .text {
+        padding-top: 0;
+    }
+
+    .third-section .buttons button {
+        width: 37px;
+        height: 37px;
+    }
+
+    .third-section .slider .item img {
+        height: 420px;
+    }
+}
+
+@media (max-width: 991px) {
+    .third-section {
+        padding: 80px 0;
+    }
+
+    .third-section .text {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .third-section .all-works {
+        padding-left: 0;
+    }
+
+    .third-section .buttons {
+        text-align: center;
+    }
+
+    .third-section .first {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .third-section .slider .item img {
+        height: 600px;
+    }
+}
+
+@media (max-width: 576px) {
+    .third-section .slider .item img {
+        height: 400px;
+    }
+}
