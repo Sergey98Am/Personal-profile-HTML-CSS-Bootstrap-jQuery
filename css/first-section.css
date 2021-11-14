@@ -66,3 +66,109 @@
 .first-section .second-content .email {
     padding-top: 5px;
 }
+
+@media (max-width: 1380px) {
+    .first-section .second-content .info {
+        padding-top: 170px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .first-section .second-content .info {
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .first-section .second-content .text-content .name h1 {
+        font-size: 65px;
+    }
+
+    .first-section .second-content .text-content .text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .first-section .second-content .info {
+        padding-left: 20px;
+        padding-top: 60px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+    }
+
+    .first-section .second-content .text-content .name h1 {
+        font-size: 45px;
+    }
+
+    .first-section .second-content .icons {
+        padding-top: 70px;
+    }
+
+    .first-section .second-content .text-content .title h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .first-section .first-content .first-image {
+        height: 800px;
+    }
+
+    .first-section .second-content .text-content .name h1 {
+        font-size: 75px;
+    }
+
+    .first-section .second-content .text-content .text p {
+        font-size: 20px;
+    }
+
+    .first-section .second-content .icons a {
+        font-size: 30px;
+    }
+
+    .first-section .second-content .phone-number {
+        font-size: 25px;
+    }
+
+    .first-section .second-content .email {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .first-section .first-content .first-image {
+        background-position: center center;
+        height: 500px;
+    }
+
+    .first-section .second-content .text-content .name h1 {
+        font-size: 40px;
+    }
+
+    .first-section .second-content .text-content .text p {
+        font-size: 16px;
+    }
+
+    .first-section .second-content .icons {
+        padding-top: 30px;
+    }
+
+    .first-section .second-content .icons a {
+        font-size: 25px;
+    }
+
+    .first-section .second-content .icons a:not(:first-child) {
+        padding: 0 10px;
+    }
+
+    .first-section .second-content .phone-number {
+        font-size: 16px;
+    }
+
+    .first-section .second-content .email {
+        font-size: 16px;
+    }
+}
