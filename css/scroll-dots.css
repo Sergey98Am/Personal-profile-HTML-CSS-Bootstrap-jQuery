@@ -35,3 +35,9 @@
 .add-before:before {
     background: black !important;
 }
+
+@media (max-width: 768px) {
+    .scroll-dots {
+        display: none;
+    }
+}
