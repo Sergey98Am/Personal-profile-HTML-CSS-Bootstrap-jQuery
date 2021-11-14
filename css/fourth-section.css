@@ -102,12 +102,107 @@
 
 @media (max-width: 1380px) {
     .fourth-section .timeline {
-        position: relative;
         padding-left: 100px !important;
         padding-right: 100px !important;
     }
 
     .fourth-section .timeline::before {
         left: 21.6%;
+        height: 615px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .fourth-section .first-content .title h1 {
+        font-size: 50px;
+    }
+
+    .fourth-section .first-content .title h1:after {
+        display: none;
+    }
+
+    .fourth-section .second-content .text {
+        padding-top: 0;
+    }
+
+    .fourth-section .timeline {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    .fourth-section .item:after {
+        left: 18.2%;
+    }
+}
+
+@media (max-width: 991px) {
+    .fourth-section .timeline {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .fourth-section .first-content .title h1 {
+        font-size: 40px;
+    }
+
+    .fourth-section .second-content .text {
+        padding: 0;
+    }
+
+    .fourth-section .timeline::before {
+        height: 705px;
+    }
+
+    .fourth-section .item:after {
+        left: 21.7%;
+    }
+}
+
+@media (max-width: 768px) {
+    .fourth-section {
+        padding: 70px 0;
+    }
+
+    .fourth-section .first {
+        padding-bottom: 40px;
+    }
+
+    .fourth-section .second-content .text {
+        margin-top: 20px;
+    }
+
+    .fourth-section .timeline::before {
+        display: none;
+    }
+
+    .fourth-section .item {
+        flex-direction: column;
+    }
+
+    .fourth-section .item:after {
+        display: none;
+    }
+
+    .fourth-section .item .date-range {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .fourth-section .item .date-range h2 {
+        font-size: 21px !important;
+    }
+
+    .fourth-section .item .info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .fourth-section .item .info p {
+        font-size: 16px;
+    }
+
+    .fourth-section .item:not(:last-child) {
+        margin-bottom: 30px;
     }
 }
