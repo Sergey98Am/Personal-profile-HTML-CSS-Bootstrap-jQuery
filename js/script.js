@@ -1,16 +1,16 @@
 $(document).ready(function () {
     $('.icon').click(function () {
-        // $(".icon").toggleClass("hide");
+        $(".icon").addClass('is-active');
         $('.overlay-menu-content').addClass('active-overlay');
     });
 
     $('.overlay-menu-content ul li a').click(function () {
-        // $(".icon").toggleClass("hide");
+        $(".icon").removeClass('is-active');
         $('.overlay-menu-content').removeClass('active-overlay');
     });
 
     $('.close-menu button').click(function () {
-        // $(".icon").toggleClass("hide");
+        $(".icon").removeClass('is-active');
         $('.overlay-menu-content').removeClass('active-overlay');
     });
 
@@ -46,14 +46,6 @@ $(document).ready(function () {
                 $(this).siblings().removeClass('active');
                 // let dot_link_before = window.getComputedStyle(document.querySelector('.dot-link'), ':before')
                 let hash = this.hash
-                changeColorDots(
-                    hash,
-                    '#third-section',
-                    {'border-color': 'transparent'},
-                    'add-before',
-                    {'border-color': 'red'},
-                    {'border-color': 'green'}
-                )
                 changeColorDots(
                     hash,
                     '#fourth-section',
