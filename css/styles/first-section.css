@@ -3,7 +3,7 @@
 }
 
 .first-section .first-content .first-image {
-    background: url("../images/intro-bg-1.jpg");
+    background: url("../../images/intro-bg-1.jpg");
     background-size: cover;
     height: 100%;
 }
