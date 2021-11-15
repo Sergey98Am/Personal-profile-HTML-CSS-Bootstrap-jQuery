@@ -2,6 +2,7 @@
     position: fixed;
     display: flex;
     justify-content: end;
+    align-items: center;
     z-index: 8;
     width: 100%;
     padding: 14px 34px;
