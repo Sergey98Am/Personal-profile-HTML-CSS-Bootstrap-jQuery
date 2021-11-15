@@ -1,7 +1,7 @@
 .header .menu-icon {
     position: fixed;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     z-index: 8;
     width: 100%;
