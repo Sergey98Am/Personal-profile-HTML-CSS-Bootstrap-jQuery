@@ -1,0 +1,127 @@
+.sixth-section {
+    background: url("../images/blog-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 200px 0;
+}
+
+.sixth-section .title h1 {
+    color: white;
+    margin: 0;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+}
+
+.sixth-section .first .text {
+    padding-left: 69px;
+    padding-right: 17px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.sixth-section .first .text p {
+    font-size: 17.1px;
+    color: white;
+}
+
+.sixth-section .buttons {
+    padding-left: 5px;
+    padding-top: 25px;
+}
+
+.sixth-section .read-blog {
+    padding-left: 69px;
+}
+
+.sixth-section .read-blog a {
+    font-size: 18px;
+}
+
+.sixth-section .buttons {
+    padding-left: 5px;
+    padding-top: 25px;
+}
+
+.sixth-section .slider-button {
+    background: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.sixth-section .first {
+    padding-bottom: 84px;
+}
+
+.sixth-section .third-slider .item {
+    color: white;
+    padding: 0 10px;
+}
+
+.sixth-section .third-slider .item .slider-content {
+    border-bottom: 3px solid rebeccapurple;
+}
+
+.sixth-section .third-slider .item .title h2 {
+    margin-bottom: 12px;
+}
+
+.sixth-section .third-slider .item .text {
+    padding-top: 28px;
+    padding-bottom: 36px;
+}
+
+.sixth-section .third-slider .item .text p {
+    font-size: 17px;
+    margin: 0;
+}
+
+@media (max-width: 1380px) {
+    .sixth-section .buttons {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sixth-section .text {
+        padding-top: 0;
+    }
+
+    .sixth-section .buttons button {
+        width: 37px;
+        height: 37px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sixth-section {
+        padding: 80px 0;
+    }
+
+    .sixth-section .first .text {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .sixth-section .read-blog {
+        padding-left: 0;
+    }
+
+    .sixth-section .buttons {
+        text-align: center;
+    }
+
+    .sixth-section .first {
+        padding-bottom: 30px;
+    }
+
+    .sixth-section .title h1 {
+        font-size: 50px;
+    }
+}

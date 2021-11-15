@@ -1,0 +1,52 @@
+.fifth-section {
+    background: #512bd7;
+    padding: 136px 0;
+}
+
+.fifth-section .title {
+    margin-bottom: 70px;
+}
+
+.fifth-section .title h1 {
+    color: white;
+    font-size: 73px;
+    font-family: "Playfair Display", serif;
+}
+
+.fifth-section .title h1:after {
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 3.5px solid #4ac1e5;
+    width: 75px;
+    margin-top: 14px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.fifth-section .second-slider img {
+    width: 100%;
+}
+
+.fifth-section .second-slider .slick-dots button:before {
+    font-size: 12px;
+}
+
+.fifth-section .slick-dots {
+    bottom: -32px;
+}
+
+.fifth-section .slick-dots .slick-active button:before {
+    color: black !important;
+}
+
+.fifth-section .slick-dots li button:before {
+    opacity: 1 !important;
+    color: white !important;
+}
+
+@media (max-width: 1200px) {
+    .fifth-section .title h1 {
+        font-size: 50px;
+    }
+}

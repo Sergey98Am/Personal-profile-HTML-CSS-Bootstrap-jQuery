@@ -1,0 +1,115 @@
+.seventh-section {
+    background: url("../images/contact-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 220px 0;
+}
+
+.seventh-section .contact {
+    color: white;
+    padding-right: 125px;
+}
+
+.seventh-section .contact .item {
+    margin-bottom: 20px;
+}
+
+.seventh-section .contact .item .icon {
+    font-size: 23px;
+    color: white;
+}
+
+.seventh-section .contact .email {
+    margin-bottom: 27px;
+}
+
+.seventh-section .contact .title {
+    margin-bottom: 50px;
+}
+
+.seventh-section .contact .title h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 75px;
+    margin: 0;
+}
+
+.seventh-section .contact .item-text {
+    font-size: 18px;
+}
+
+.seventh-section .contact .icons a {
+    margin-right: 27px;
+    font-size: 23px;
+    color: white;
+}
+
+.seventh-section .form input,textarea {
+    font-size: 17px;
+    padding: 14px 0;
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.seventh-section .form textarea {
+    margin-bottom: 22px;
+    padding: 20px 0;
+    height: 145px;
+}
+
+.seventh-section .form input::placeholder, textarea::placeholder {
+    color: white;
+}
+
+.seventh-section .form button {
+    color: rebeccapurple;
+    padding: 18px 35px;
+    border: none;
+}
+
+@media (max-width: 1380px) {
+    .seventh-section .contact {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .seventh-section {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .seventh-section .contact {
+        margin-bottom: 70px;
+    }
+
+    .seventh-section .contact .title h1 {
+        font-size: 60px;
+    }
+
+    .seventh-section .contact .item {
+        margin-bottom: 10px;
+    }
+    .seventh-section .contact p {
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .seventh-section .contact {
+        margin-bottom: 50px;
+    }
+
+    .seventh-section .contact .title h1 {
+        font-size: 45px;
+    }
+
+    .seventh-section .contact .icons a {
+        font-size: 20px;
+    }
+}

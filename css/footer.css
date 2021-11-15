@@ -1,0 +1,17 @@
+.footer {
+    background: black;
+    padding: 38px 0;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    word-spacing: 3px;
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .footer p {
+        font-size: 12px;
+    }
+}
