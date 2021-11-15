@@ -1,13 +1,13 @@
-@import "scroll-dots.css";
-@import "menu.css";
-@import "first-section.css";
-@import "second-section.css";
-@import "third-section.css";
-@import "fourth-section.css";
-@import "fifth-section.css";
-@import "sixth-section.css";
-@import "seventh-section.css";
-@import "footer.css";
+@import "styles/scroll-dots.css";
+@import "styles/menu.css";
+@import "styles/first-section.css";
+@import "styles/second-section.css";
+@import "styles/third-section.css";
+@import "styles/fourth-section.css";
+@import "styles/fifth-section.css";
+@import "styles/sixth-section.css";
+@import "styles/seventh-section.css";
+@import "styles/footer.css";
 
 *,
 *::before,
