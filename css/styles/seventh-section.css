@@ -2,7 +2,7 @@
     background: url("../../images/contact-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 220px 0;
+    padding: 188px 0;
 }
 
 .seventh-section .contact {
@@ -23,18 +23,24 @@
     margin-bottom: 27px;
 }
 
+.seventh-section .contact .email .item-text {
+    font-size: 16px;
+}
+
 .seventh-section .contact .title {
     margin-bottom: 50px;
 }
 
 .seventh-section .contact .title h1 {
     font-family: "Playfair Display", serif;
-    font-size: 75px;
+    font-size: 72px;
     margin: 0;
+    font-weight: 700;
 }
 
 .seventh-section .contact .item-text {
     font-size: 18px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .seventh-section .contact .icons a {
@@ -52,7 +58,7 @@
     border: none;
     border-bottom: 3px solid white;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .seventh-section .form textarea {

@@ -1,9 +1,10 @@
 .fourth-section {
-    padding: 124px 0;
+    padding: 130px 0;
 }
 
 .fourth-section .first-content .title h1 {
-    font-size: 73px;
+    font-size: 71px;
+    font-weight: 600;
     font-family: "Playfair Display", serif;
 }
 
@@ -25,14 +26,14 @@
 
 .fourth-section .second-content .text p {
     font-family: "Open Sans", sans-serif;
-    font-size: 16.4px;
+    font-size: 16.3px;
     line-height: 27px;
-    font-weight: 700;
+    font-weight: 500;
     word-spacing: 1px;
 }
 
 .fourth-section .first {
-    padding-bottom: 102px;
+    padding-bottom: 77px;
 }
 
 .fourth-section .timeline {
@@ -58,7 +59,7 @@
 }
 
 .fourth-section .item:not(:last-child) {
-    margin-bottom: 65px;
+    margin-bottom: 70px;
 }
 
 .fourth-section .date-range h2 {
@@ -72,18 +73,20 @@
 
 .fourth-section .item .info .title {
     color: rebeccapurple;
-    font-size: 28px;
+    font-size: 24px;
+    font-weight: 800;
     margin-bottom: 7px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .fourth-section .item .info .subtitle {
     font-size: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
 }
 
 .fourth-section .item .info p {
     font-family: "Open Sans", sans-serif;
-    font-size: 22px;
+    font-size: 20.5px;
     font-weight: 600;
     word-spacing: 1.6px;
 }
