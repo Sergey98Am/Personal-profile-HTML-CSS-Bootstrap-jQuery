@@ -133,3 +133,13 @@
         font-size: 50px;
     }
 }
+
+@media (min-width: 768px) {
+    .third-slider,
+    .slick-list,
+    .slick-track,
+    .slick-slide,
+    .slider-content {
+        height: 100% !important;
+    }
+}
